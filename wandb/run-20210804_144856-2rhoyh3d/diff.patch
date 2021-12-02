@@ -1,0 +1,1359 @@
+diff --git a/.gitignore b/.gitignore
+old mode 100644
+new mode 100755
+diff --git a/CODE_OF_CONDUCT.md b/CODE_OF_CONDUCT.md
+old mode 100644
+new mode 100755
+diff --git a/LICENSE b/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/README.md b/README.md
+old mode 100644
+new mode 100755
+diff --git a/SECURITY.md b/SECURITY.md
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/README.md b/moz_sp/README.md
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/__init__.py b/moz_sp/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/debugs.py b/moz_sp/debugs.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/extractors/foreign_key_extractor.py b/moz_sp/extractors/foreign_key_extractor.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/extractors/table_extractor.py b/moz_sp/extractors/table_extractor.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/extractors/value_extractor.py b/moz_sp/extractors/value_extractor.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/formatting.py b/moz_sp/formatting.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/keywords.py b/moz_sp/keywords.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/schema_consistency_checker.py b/moz_sp/schema_consistency_checker.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/sql_execution_order_parser.py b/moz_sp/sql_execution_order_parser.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/sql_normalizer.py b/moz_sp/sql_normalizer.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/sql_parser.py b/moz_sp/sql_parser.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/sql_tokenizer.py b/moz_sp/sql_tokenizer.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/tests/tests.py b/moz_sp/tests/tests.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/tests/unit_tests.py b/moz_sp/tests/unit_tests.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/traverser.py b/moz_sp/traverser.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/utils.py b/moz_sp/utils.py
+old mode 100644
+new mode 100755
+diff --git a/requirements.txt b/requirements.txt
+old mode 100644
+new mode 100755
+index a0ea64b..01b91bf
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -5,7 +5,7 @@ mo-future>=2.20
+ pyparsing==2.3.0
+ wandb==0.8.30
+ n2w
+-matplotlib==3.0.2
++matplotlib
+ transformers==2.8.0
+ asciitree
+ apex
+diff --git a/src/__init__.py b/src/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/__init__.py b/src/common/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/content_encoder.py b/src/common/content_encoder.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/learn_framework.py b/src/common/learn_framework.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/lr_scheduler.py b/src/common/lr_scheduler.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/nn_modules.py b/src/common/nn_modules.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/nn_visualizer.py b/src/common/nn_visualizer.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/ops.py b/src/common/ops.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/show_vis.ipynb b/src/common/show_vis.ipynb
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/__init__.py b/src/data_processor/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/data_augmentation.py b/src/data_processor/data_augmentation.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/data_loader.py b/src/data_processor/data_loader.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/data_processor.py b/src/data_processor/data_processor.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/data_stats.py b/src/data_processor/data_stats.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/path_utils.py b/src/data_processor/path_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/processor_utils.py b/src/data_processor/processor_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/processors/data_processor_spider.py b/src/data_processor/processors/data_processor_spider.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/processors/data_processor_wikisql.py b/src/data_processor/processors/data_processor_wikisql.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/revtok_tokenizer.py b/src/data_processor/revtok_tokenizer.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/schema_graph.py b/src/data_processor/schema_graph.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/schema_loader.py b/src/data_processor/schema_loader.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/sql/__init__.py b/src/data_processor/sql/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/sql/sql_operators.py b/src/data_processor/sql/sql_operators.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/sql/sql_reserved_tokens.py b/src/data_processor/sql/sql_reserved_tokens.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/tokenizers.py b/src/data_processor/tokenizers.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/vectorizers.py b/src/data_processor/vectorizers.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/vocab_processor.py b/src/data_processor/vocab_processor.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/vocab_utils.py b/src/data_processor/vocab_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/demos/__init__.py b/src/demos/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/demos/demo_args.py b/src/demos/demo_args.py
+old mode 100644
+new mode 100755
+diff --git a/src/demos/demos.py b/src/demos/demos.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/__init__.py b/src/eval/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/eval_constant_extraction.py b/src/eval/eval_constant_extraction.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/eval_table_prediction.py b/src/eval/eval_table_prediction.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/eval_tools.py b/src/eval/eval_tools.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/eval_utils.py b/src/eval/eval_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/spider/evaluate.py b/src/eval/spider/evaluate.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/spider/process_sql.py b/src/eval/spider/process_sql.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/spider/syntaxsql.py b/src/eval/spider/syntaxsql.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/__init__.py b/src/eval/wikisql/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/evaluate.py b/src/eval/wikisql/evaluate.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/lib/__init__.py b/src/eval/wikisql/lib/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/lib/common.py b/src/eval/wikisql/lib/common.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/lib/dbengine.py b/src/eval/wikisql/lib/dbengine.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/lib/query.py b/src/eval/wikisql/lib/query.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/lib/table.py b/src/eval/wikisql/lib/table.py
+old mode 100644
+new mode 100755
+diff --git a/src/experiments.py b/src/experiments.py
+old mode 100644
+new mode 100755
+diff --git a/src/experiments_test.py b/src/experiments_test.py
+new file mode 100755
+index 0000000..e613d99
+--- /dev/null
++++ b/src/experiments_test.py
+@@ -0,0 +1,407 @@
++"""
++ Copyright (c) 2020, salesforce.com, inc.
++ All rights reserved.
++ SPDX-License-Identifier: BSD-3-Clause
++ For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
++
++ Experiment Portal.
++"""
++import random
++import json
++import os
++import sys
++from src.parse_args_test import args
++os.environ['CUDA_VISIBLE_DEVICES'] = '{}'.format(args.gpu)
++
++import src.common.ops as ops
++import src.data_processor.data_loader as data_loader
++import src.data_processor.processor_utils as data_utils
++from src.data_processor.data_processor import preprocess
++from src.data_processor.vocab_processor import build_vocab
++from src.data_processor.schema_graph import SchemaGraph
++from src.data_processor.path_utils import get_model_dir, get_checkpoint_path
++from src.demos.demos import Text2SQLWrapper
++import src.eval.eval_tools as eval_tools
++from src.eval.wikisql.lib.dbengine import DBEngine
++from src.semantic_parser.ensemble_configs import model_dirs as ensemble_model_dirs
++from src.semantic_parser.learn_framework import EncoderDecoderLFramework
++from src.trans_checker.args import args as cs_args
++import src.utils.utils as utils
++
++import torch
++# if not args.data_parallel:
++#     torch.cuda.set_device('cuda:{}'.format(args.gpu))
++torch.manual_seed(args.seed)
++torch.cuda.manual_seed_all(args.seed)
++
++device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++
++# Set model ID
++args.model_id = utils.model_index[args.model]
++assert(args.model_id is not None)
++
++
++def train(sp):
++    dataset = data_loader.load_processed_data(args)
++    train_data = dataset['train']
++    print('{} training examples loaded'.format(len(train_data)))
++    dev_data = dataset['dev']
++    print('{} dev examples loaded'.format(len(dev_data)))
++
++    if args.xavier_initialization:
++        ops.initialize_module(sp.mdl, 'xavier')
++    else:
++        raise NotImplementedError
++
++    sp.schema_graphs = dataset['schema']
++    if args.checkpoint_path is not None:
++        sp.load_checkpoint(args.checkpoint_path)
++
++    if args.test:
++        train_data = train_data + dev_data
++
++    sp.run_train(train_data, dev_data)
++
++
++def inference(sp):
++    dataset = data_loader.load_processed_data(args)
++    split = 'test' if args.test else 'dev'
++    if args.dataset_name == 'wikisql':
++        engine_path = os.path.join(args.data_dir, '{}.db'.format(split))
++        engine = DBEngine(engine_path)
++    else:
++        engine = None
++
++    def evaluate(examples, out_dict):
++        metrics = eval_tools.get_exact_match_metrics(examples, out_dict['pred_decoded'], engine=engine)
++        print('Top-1 exact match: {:.3f}'.format(metrics['top_1_em']))
++        print('Top-2 exact match: {:.3f}'.format(metrics['top_2_em']))
++        print('Top-3 exact match: {:.3f}'.format(metrics['top_3_em']))
++        print('Top-5 exact match: {:.3f}'.format(metrics['top_5_em']))
++        print('Top-10 exact match: {:.3f}'.format(metrics['top_10_em']))
++        if args.dataset_name == 'wikisql':
++            print('Top-1 exe match: {:.3f}'.format(metrics['top_1_ex']))
++            print('Top-2 exe match: {:.3f}'.format(metrics['top_2_ex']))
++            print('Top-3 exe match: {:.3f}'.format(metrics['top_3_ex']))
++            print('Top-5 exe match: {:.3f}'.format(metrics['top_5_ex']))
++            print('Top-10 exet match: {:.3f}'.format(metrics['top_10_ex']))
++        print('Table error: {:.3f}'.format(metrics['table_err']))
++
++    examples = dataset[split]
++    # random.shuffle(examples)
++    sp.schema_graphs = dataset['schema']
++    print('{} {} examples loaded'.format(len(examples), split))
++
++    if sp.args.use_pred_tables:
++        in_table = os.path.join(sp.args.model_dir, 'predicted_tables.txt')
++        with open(in_table) as f:
++            content = f.readlines()
++        assert(len(content) == len(examples))
++        for example, line in zip(examples, content):
++            pred_tables = set([x.strip()[1:-1] for x in line.strip()[1:-1].split(',')])
++            example.leaf_condition_vals_list = pred_tables
++
++    sp.load_checkpoint(get_checkpoint_path(args))
++    sp.eval()
++
++    if sp.args.augment_with_wikisql:
++        examples_, examples_wikisql = [], []
++        for example in examples:
++            if example.dataset_id == data_utils.WIKISQL:
++                examples_wikisql.append(example)
++            else:
++                examples_.append(example)
++        examples = examples_
++
++    pred_restored_cache = sp.load_pred_restored_cache()
++    pred_restored_cache_size = sum(len(v) for v in pred_restored_cache.values())
++    # pred_restored_cache = None
++    out_dict = sp.inference(examples, restore_clause_order=args.process_sql_in_execution_order,
++                            pred_restored_cache=pred_restored_cache,
++                            check_schema_consistency_=args.sql_consistency_check,
++                            engine=engine, inline_eval=True, verbose=True)
++    if args.process_sql_in_execution_order:
++        new_pred_restored_cache_size = sum(len(v) for v in out_dict['pred_restored_cache'].values())
++        newly_cached_size = new_pred_restored_cache_size - pred_restored_cache_size
++        if newly_cached_size > 0:
++            sp.save_pred_restored_cache(out_dict['pred_restored_cache'], newly_cached_size)
++
++    out_txt = os.path.join(sp.model_dir, 'predictions.{}.{}.{}.txt'.format(args.beam_size, args.bs_alpha, split))
++    with open(out_txt, 'w') as o_f:
++        assert(len(examples) == len(out_dict['pred_decoded']))
++        for i, pred_sql in enumerate(out_dict['pred_decoded']):
++            if args.dataset_name == 'wikisql':
++                example = examples[i]
++                o_f.write('{}\n'.format(json.dumps(
++                    {'sql': pred_sql[0], 'table_id': example.db_name})))
++            else:
++                o_f.write('{}\n'.format(pred_sql[0]))
++        print('Model predictions saved to {}'.format(out_txt))
++
++    print('{} set performance'.format(split.upper()))
++    evaluate(examples, out_dict)
++    if args.augment_with_wikisql:
++        wikisql_out_dict = sp.forward(examples_wikisql, verbose=False)
++        print('*** WikiSQL ***')
++        evaluate(examples_wikisql, wikisql_out_dict)
++
++
++def ensemble():
++    dataset = data_loader.load_processed_data(args)
++    split = 'test' if args.test else 'dev'
++    dev_examples = dataset[split]
++    print('{} dev examples loaded'.format(len(dev_examples)))
++    if args.dataset_name == 'wikisql':
++        engine_path = os.path.join(args.data_dir, '{}.db'.format(split))
++        engine = DBEngine(engine_path)
++    else:
++        engine = None
++
++    sps = [EncoderDecoderLFramework(args) for _ in ensemble_model_dirs]
++    for i, model_dir in enumerate(ensemble_model_dirs):
++        checkpoint_path = os.path.join(model_dir, 'model-best.16.tar')
++        sps[i].schema_graphs = dataset['schema']
++        sps[i].load_checkpoint(checkpoint_path)
++        sps[i].cuda()
++        sps[i].eval()
++
++    pred_restored_cache = sps[0].load_pred_restored_cache()
++    pred_restored_cache_size = sum(len(v) for v in pred_restored_cache.values())
++
++    out_dict = sps[0].inference(dev_examples, restore_clause_order=args.process_sql_in_execution_order,
++                                pred_restored_cache=pred_restored_cache,
++                                check_schema_consistency_=args.sql_consistency_check, engine=engine,
++                                inline_eval=True, model_ensemble=[sp.mdl for sp in sps], verbose=True)
++
++    if args.process_sql_in_execution_order:
++        new_pred_restored_cache_size = sum(len(v) for v in out_dict['pred_restored_cache'].values())
++        newly_cached_size = new_pred_restored_cache_size - pred_restored_cache_size
++        if newly_cached_size > 0:
++            sps[0].save_pred_restored_cache(out_dict['pred_restored_cache'], newly_cached_size)
++
++    out_txt = os.path.join(sps[0].model_dir, 'predictions.ens.{}.{}.{}.{}.txt'.format(
++        args.beam_size, args.bs_alpha, split, len(ensemble_model_dirs)))
++    with open(out_txt, 'w') as o_f:
++        assert(len(dev_examples) == len(out_dict['pred_decoded']))
++        for i, pred_sql in enumerate(out_dict['pred_decoded']):
++            if args.dataset_name == 'wikisql':
++                example = dev_examples[i]
++                o_f.write('{}\n'.format(json.dumps(
++                    {'sql': pred_sql[0], 'table_id': example.db_name})))
++            else:
++                o_f.write('{}\n'.format(pred_sql[0]))
++        print('Model predictions saved to {}'.format(out_txt))
++
++    print('{} set performance'.format(split.upper()))
++    metrics = eval_tools.get_exact_match_metrics(dev_examples, out_dict['pred_decoded'], engine=engine)
++    print('Top-1 exact match: {:.3f}'.format(metrics['top_1_em']))
++    print('Top-2 exact match: {:.3f}'.format(metrics['top_2_em']))
++    print('Top-3 exact match: {:.3f}'.format(metrics['top_3_em']))
++    print('Top-5 exact match: {:.3f}'.format(metrics['top_5_em']))
++    print('Top-10 exact match: {:.3f}'.format(metrics['top_10_em']))
++
++
++def error_analysis(sp):
++    dataset = data_loader.load_processed_data(args)
++    dev_examples = dataset['dev']
++    sp.schema_graphs = dataset['schema']
++    print('{} dev examples loaded'.format(len(dev_examples)))
++
++    if len(ensemble_model_dirs) <= 2:
++        print('Needs at least 3 models to perform majority vote')
++        sys.exit()
++
++    predictions = []
++    for model_dir in ensemble_model_dirs:
++        pred_file = os.path.join(model_dir, 'predictions.16.txt')
++        with open(pred_file) as f:
++            predictions.append([x.strip() for x in f.readlines()])
++    for i in range(len(predictions)):
++        assert(len(dev_examples) == len(predictions[i]))
++  
++    import collections 
++    disagree = collections.defaultdict(lambda: collections.defaultdict(list))
++    out_txt = 'majority_vote.txt'
++    o_f = open(out_txt, 'w')
++    for e_id in range(len(dev_examples)):
++        example = dev_examples[e_id]
++        gt_program_list = example.program_list
++        votes = collections.defaultdict(list)
++        for i in range(len(predictions)):
++            pred_sql = predictions[i][e_id]
++            votes[pred_sql].append(i)
++        # break ties
++        voting_results = sorted(votes.items(), key=lambda x:len(x[1]), reverse=True)
++        voted_sql = voting_results[0][0]
++        # TODO: the implementation below cheated
++        # if len(voting_results) == 1:
++        #     voted_sql = voting_results[0][0]
++        # else:
++        #     if len(voting_results[0][1]) > len(voting_results[1][1]):
++        #         voted_sql = voting_results[0][0]
++        #     else:
++        #         j = 1
++        #         while(j < len(voting_results) and len(voting_results[j][1]) == len(voting_results[0][1])):
++        #             j += 1
++        #         voting_results = sorted(voting_results[:j], key=lambda x:sum(x[1]))
++        #         voted_sql = voting_results[0][0]
++        o_f.write(voted_sql + '\n') 
++        evals = []
++        for i in range(len(predictions)):
++            eval_results, _, _ = eval_tools.eval_prediction(
++                pred=predictions[i][e_id],
++                gt_list=gt_program_list,
++                dataset_id=example.dataset_id,
++                db_name=example.db_name,
++                in_execution_order=False
++            )
++            evals.append(eval_results)
++        models_agree = (len(set(evals)) == 1)
++        if not models_agree:
++            for i in range(len(evals)-1):
++                for j in range(1, len(evals)):
++                    if evals[i] != evals[j]:
++                        disagree[i][j].append(e_id)
++            schema = sp.schema_graphs[example.db_name]
++            print('Example {}'.format(e_id+1))
++            example.pretty_print(schema)
++            for i in range(len(predictions)):
++                print('Prediction {} [{}]: {}'.format(i+1, evals[i], predictions[i][e_id]))
++            print()
++    o_f.close()
++
++    for i in range(len(predictions)-1):
++        for j in range(i+1, len(predictions)):
++            print('Disagree {}, {}: {}'.format(i+1, j+1, len(disagree[i][j])))
++    import functools
++    disagree_all = functools.reduce(lambda x, y: x & y, [set(l) for l in [disagree[i][j] for i in range(len(disagree)) for j in disagree[i]]])
++    print('Disagree all: {}'.format(len(disagree_all)))
++    print('Majority voting results saved to {}'.format(out_txt))
++
++def fine_tune(sp):
++    dataset = data_loader.load_processed_data(args)
++    fine_tune_data = dataset['fine-tune']
++
++    print('{} fine-tuning examples loaded'.format(len(fine_tune_data)))
++    dev_data = fine_tune_data
++
++    sp.schema_graphs = dataset['schema']
++    sp.load_checkpoint(get_checkpoint_path(args))
++
++    sp.run_train(fine_tune_data, dev_data)
++
++
++def process_data():
++    """
++    Data preprocess.
++
++    1. Build vocabulary.
++    2. Vectorize data.
++    """
++    if args.dataset_name == 'spider':
++        dataset = data_loader.load_data_spider(args)
++    elif args.dataset_name == 'wikisql':
++        dataset = data_loader.load_data_wikisql(args)
++    else:
++        dataset = data_loader.load_data_by_split(args)
++
++    # build_vocab(args, dataset, dataset['schema'])
++    preprocess(args, dataset, verbose=True)
++
++
++def demo(args):
++    """
++    Interactive command line demo.
++
++    Specify a target database from the Spider dataset and query the database using natural language.
++    The output includes:
++        1. if the input question is translated to the SQL query, return the SQL query
++        2. otherwise, return a confusion span in the question that caused the input to be untranslatable.
++    """
++    data_dir = 'data/'
++    if args.demo_db is None:
++        print('Error: must specify a database name to proceed')
++        return
++    else:
++        db_name = args.demo_db
++    db_path = os.path.join(args.db_dir, db_name, '{}.sqlite'.format(db_name))
++    schema = SchemaGraph(db_name, db_path=db_path)
++    if db_name == 'covid_19':
++        in_csv = os.path.join(data_dir, db_name, '{}.csv'.format(db_name))
++        in_type = os.path.join(data_dir, db_name, '{}.types'.format(db_name))
++        schema.load_data_from_csv_file(in_csv, in_type)
++    else:
++        # TODO: currently the demo is configured for the Spider dataset.
++        import json
++        in_json = os.path.join(args.data_dir, 'tables.json')
++        with open(in_json) as f:
++            tables = json.load(f)
++        for table in tables:
++            if table['db_id'] == db_name:
++                break
++        schema.load_data_from_spider_json(table)
++    schema.pretty_print()
++
++    if args.ensemble_inference:
++        t2sql = Text2SQLWrapper(args, cs_args, schema, ensemble_model_dirs=ensemble_model_dirs)
++    else:
++        t2sql = Text2SQLWrapper(args, cs_args, schema)
++
++    sys.stdout.write('Enter a natural language question: ')
++    sys.stdout.write('> ')
++    sys.stdout.flush()
++    text = sys.stdin.readline()
++
++    while text:
++        output = t2sql.process(text, schema.name)
++        translatable = output['translatable']
++        sql_query = output['sql_query']
++        confusion_span = output['confuse_span']
++        replacement_span = output['replace_span']
++        print('Translatable: {}'.format(translatable))
++        print('SQL: {}'.format(sql_query))
++        print('Confusion span: {}'.format(confusion_span))
++        print('Replacement span: {}'.format(replacement_span))
++        sys.stdout.flush()
++        sys.stdout.write('\nEnter a natural language question: ')
++        sys.stdout.write('> ')
++        text = sys.stdin.readline()
++
++
++def run_experiment(args):
++    if args.process_data:
++        process_data()
++    elif args.ensemble_inference and not args.demo:
++        get_model_dir(args)
++        assert(args.model in ['bridge',
++                              'seq2seq',
++                              'seq2seq.pg'])
++        ensemble()
++    else:
++        with torch.set_grad_enabled(args.train or args.search_random_seed or args.grid_search or args.fine_tune):
++            get_model_dir(args)
++            if args.model in ['bridge',
++                              'seq2seq',
++                              'seq2seq.pg']:
++                sp = EncoderDecoderLFramework(args)
++            else:
++                raise NotImplementedError
++
++            sp.cuda()
++            if args.train:
++                train(sp)
++            elif args.inference:
++                inference(sp)
++            elif args.error_analysis:
++                error_analysis(sp)
++            elif args.demo:
++                demo(args)
++            elif args.fine_tune:
++                fine_tune(sp)
++            else:
++                print('No experiment specified. Exit now.')
++                sys.exit(1)
++
++
++if __name__ == '__main__':
++    run_experiment(args)
+diff --git a/src/parse_args.py b/src/parse_args.py
+old mode 100644
+new mode 100755
+index e724b77..553eeb9
+--- a/src/parse_args.py
++++ b/src/parse_args.py
+@@ -312,4 +312,4 @@ parser.add_argument('--grid_search', action='store_true',
+                     help='Conduct grid search of hyperparameters')
+ 
+ 
+-args = parser.parse_args()
++args = parser.parse_args()
+\ No newline at end of file
+diff --git a/src/parse_args_raw.py b/src/parse_args_raw.py
+new file mode 100755
+index 0000000..e724b77
+--- /dev/null
++++ b/src/parse_args_raw.py
+@@ -0,0 +1,315 @@
++"""
++ Copyright (c) 2020, salesforce.com, inc.
++ All rights reserved.
++ SPDX-License-Identifier: BSD-3-Clause
++ For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
++
++ Experiment Hyperparameters.
++"""
++
++import argparse
++import os
++
++
++parser = argparse.ArgumentParser(description='Neural Semantic Parsing with Transformer-Pointer Network')
++
++# Experiment control
++parser.add_argument('--process_data', action='store_true',
++                    help='data preprocessing and numericalization (default: False)')
++parser.add_argument('--process_new_data_split', action='store_true',
++                    help='preprocess a specified data split and add it to existing processed data (default: False)')
++parser.add_argument('--train', action='store_true',
++                    help='run model training (default: False)')
++parser.add_argument('--inference', action='store_true',
++                    help='run inference (default: False)')
++parser.add_argument('--ensemble_inference', action='store_true',
++                    help='run inference with the ensemble of multiple models specified ')
++parser.add_argument('--predict_tables', action='store_true',
++                    help='run table prediction experiments (default: False)')
++parser.add_argument('--no_join_condition', action='store_true',
++                    help='do not predict join condition (default: False)')
++parser.add_argument('--test', action='store_true',
++                    help='perform inference on the test set (default: False)')
++parser.add_argument('--fine_tune', action='store_true',
++                    help='fine tuning model on a given dataset (default: False)')
++parser.add_argument('--demo', action='store_true',
++                    help='run interactive commandline demo (default: False)')
++parser.add_argument('--demo_db', type=str, default=None,
++                    help='the database used in the interactive demo')
++parser.add_argument('--data_statistics', action='store_true',
++                    help='print dataset statistics (default: False)')
++parser.add_argument('--search_random_seed', action='store_true',
++                    help='run experiments with multiple random initializations and compute the result '
++                         'statistics (default: False)')
++parser.add_argument('--eval', action='store_true',
++                    help='compute evaluation metrics (default: False)')
++parser.add_argument('--eval_by_relation_type', action='store_true',
++                    help='compute evaluation metrics for to-M and to-1 relations separately (default: False)')
++parser.add_argument('--error_analysis', action='store_true',
++                    help='run error analysis (default: False)')
++parser.add_argument('--data_dir', type=str, default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data'),
++                    help='directory where the data is stored (default: None)')
++parser.add_argument('--db_dir', type=str, default=None,
++                    help='directory where the database files are stored (default: None)')
++parser.add_argument('--model_root_dir', type=str, default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'model'),
++                    help='root directory where the model parameters are stored (default: None)')
++parser.add_argument('--viz_root_dir', type=str, default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'viz'),
++                    help='root directory where the network visualizations are stored (default: None)')
++parser.add_argument('--model_dir', type=str, default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'model'),
++                    help='directory where the model parameters are stored (default: None)')
++parser.add_argument('--viz_dir', type=str, default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'viz'),
++                    help='directory where the network visualizations are stored (default: None)')
++parser.add_argument('--save_all_checkpoints', action='store_true',
++                    help='If set, save all checkpoints during training; otherwise, save the checkpoints w/ the best '
++                         'dev performance only. (default: False)')
++parser.add_argument('--gpu', type=int, default=0, help='gpu device (default: 0)')
++
++# Leaderboard submission
++parser.add_argument('--leaderboard_submission', action='store_true',
++                    help='If set, switch to leaderboard submission mode.')
++parser.add_argument('--codalab_data_dir', type=str, default=None,
++                    help='Data directory on Codalab.')
++parser.add_argument('--codalab_db_dir', type=str, default=None,
++                    help='Database directory on Codalab.')
++parser.add_argument('--checkpoint_path', type=str, default=None,
++                    help='path to a pretrained checkpoint (default: None)')
++parser.add_argument('--prediction_path', type=str, default=None,
++                    help='path to which the model prediction is saved (default: None)')
++
++# Data
++parser.add_argument('--use_pred_tables', action='store_true',
++                    help='If set, use automatically predicted tables.')
++parser.add_argument('--use_graph_encoding', action='store_true',
++                    help='If set, use graph encoding as input.')
++parser.add_argument('--use_picklist', action='store_true',
++                    help='If set, use field value pick list (default: False)')
++parser.add_argument('--read_picklist', action='store_true',
++                    help='If set, read field values from pick list (default: False)')
++parser.add_argument('--top_k_picklist_matches', type=int, default=1,
++                    help='Maximum number of values that matches the input to select from a picklist (default: 1)')
++parser.add_argument('--num_values_per_field', type=int, default=0,
++                    help='Number of sample values to include in a field representation')
++parser.add_argument('--num_random_tables_added', type=int, default=0,
++                    help='Number of random tables added in addition to groundtruth during stage-2 training')
++parser.add_argument('--table_shuffling', action='store_true',
++                    help='If set, shuffle table order (default: False)')
++parser.add_argument('--anchor_text_match_threshold', type=float, default=0.85,
++                    help='Score threshold above which an anchor text match is considered (default: 0.85)')
++parser.add_argument('--no_anchor_text', action='store_true',
++                    help='If add, add only the special value token but not the value text to the schema representation')
++parser.add_argument('--question_split', action='store_true',
++                    help='split dataset based on questions (default: False)')
++parser.add_argument('--query_split', action='store_true',
++                    help='split dataset based on queries (default: False)')
++parser.add_argument('--question_only', action='store_true',
++                    help='Take only the natural language questions as input (default: False)')
++parser.add_argument('--pretrained_transformer', type=str, default='',
++                    help='Specify pretrained transformer model to use.')
++parser.add_argument('--fix_pretrained_transformer_parameters', action='store_true',
++                    help='If set, no finetuning is performed on the pretrained BERT embeddings (default: False).')
++parser.add_argument('--use_typed_field_markers', action='store_true',
++                    help='If set, use typed column special tokens to feed into the BERT layer (default: False).')
++parser.add_argument('--vocab_min_freq', type=int, default=1,
++                    help='Minimum token frequency in shared vocabulary (default: 1)')
++parser.add_argument('--share_vocab', action='store_true',
++                    help='Share input and output vocabulary (default: False)')
++parser.add_argument('--text_vocab_min_freq', type=int, default=1,
++                    help='Minimum word frequency in natural language vocabulary (default: 1)')
++parser.add_argument('--program_vocab_min_freq', type=int, default=1,
++                    help='Minimum token frequency in program vocabulary (default: 1)')
++parser.add_argument('--enumerate_ground_truth', action='store_true',
++                    help='Sample ground truth queries during training when there are multiple correct ones '
++                         '(default: False)')
++parser.add_argument('--save_nn_weights_for_visualizations', action='store_true',
++                    help='Save visualizations of neural network layers. (default: False)')
++parser.add_argument('--dataset_name', type=str, default='wikisql',
++                    help='name of dataset (default: wikisql)')
++parser.add_argument('--normalize_variables', action='store_true',
++                    help='replace constant values in text and programs with place holders (default: False)')
++parser.add_argument('--denormalize_sql', action='store_true',
++                    help='Denormalize SQL queries (default: False)')
++parser.add_argument('--omit_from_clause', action='store_true',
++                    help='Remove FROM clause from SQL query in data preprocessing (default: False)')
++parser.add_argument('--use_oracle_tables', action='store_true',
++                    help='If set, use only ground truth tables in the database schema representation (default: False)')
++parser.add_argument('--atomic_value', action='store_true',
++                    help='If set, make value copying an atomic action (default: False).')
++parser.add_argument('--data_augmentation_factor', type=int, default=1,
++                    help='Data augmentation factor (default: 1)')
++parser.add_argument('--schema_augmentation_factor', type=int, default=1,
++                    help='Schema augmentation factor (default: 1)')
++parser.add_argument('--random_field_order', action='store_true',
++                    help='If set, use random field order in augmented table schema (default: False).')
++parser.add_argument('--augment_with_wikisql', action='store_true',
++                    help='If set, augment training data with WikiSQL (default: False)')
++parser.add_argument('--process_sql_in_execution_order', action='store_true',
++                    help='Generate and process SQL clauses in execution order (default: False)')
++parser.add_argument('--sql_consistency_check', action='store_true',
++                    help='Check consistency of a genereated SQL query (default: False)')
++
++parser.add_argument('--data_parallel', action='store_true',
++                    help='If set, use data parallelization. (default: False)')
++
++# Encoder-decoder model
++parser.add_argument('--model', type=str, default='bridge',
++                    help='semantic parsing model (default: bridge)')
++parser.add_argument('--model_id', type=int, default=None,
++                    help='semantic parsing model ID (default: None)')
++parser.add_argument('--loss', type=str, default='cross_entropy',
++                    help='sequence training loss (default: cross_entropy)')
++parser.add_argument('--encoder_input_dim', type=int, default=200,
++                    help='Encoder input dimension (default: 200)')
++parser.add_argument('--decoder_input_dim', type=int, default=200,
++                    help='Decoder input dimension (default: 200)')
++parser.add_argument('--emb_dropout_rate', type=float, default=0.0,
++                    help='Embedding dropout rate (default: 0.0)')
++parser.add_argument('--pretrained_lm_dropout_rate', type=float, default=0.0,
++                    help='Pretrained LM features dropout rate (default: 0.0)')
++parser.add_argument('--res_input_dropout_rate', type=float, default=0.0,
++                    help='Residual input dropout rate (default: 0.0)')
++parser.add_argument('--res_layer_dropout_rate', type=float, default=0.0,
++                    help='Residual layer dropout rate (default: 0.0)')
++parser.add_argument('--cross_attn_num_heads', type=int, default=1,
++                    help='Encoder-decoder attention # heads (default: 1)')
++parser.add_argument('--cross_attn_dropout_rate', type=float, default=0.0,
++                    help='Encoder-decoder attention dropout rate (default: 0.0)')
++parser.add_argument('--max_in_seq_len', type=int, default=120,
++                    help='Maximum input length (default: 120)')
++parser.add_argument('--max_out_seq_len', type=int, default=120,
++                    help='Maximum output length (default: 120)')
++parser.add_argument('--use_lstm_encoder', action='store_true',
++                    help='If set, use LSTM encoder on top of pretrained transformer encoders (default: False)')
++parser.add_argument('--use_meta_data_encoding', action='store_true',
++                    help='If set, encode meta data features in the DB schema (default: False)')
++
++# RNNs
++parser.add_argument('--encoder_hidden_dim', type=int, default=-1,
++                    help='Encoder hidden dimension (default to encoder input dimension)')
++parser.add_argument('--decoder_hidden_dim', type=int, default=-1,
++                    help='Decoder hidden dimension (default to decoder input dimension)')
++parser.add_argument('--rnn_input_dropout_rate', type=float, default=0.0,
++                    help='RNN input layer dropout rate (default: 0.0)')
++parser.add_argument('--rnn_layer_dropout_rate', type=float, default=0.0,
++                    help='Dropout rate between RNN layers (default: 0.0)')
++parser.add_argument('--rnn_weight_dropout_rate', type=float, default=0.0,
++                    help='RNN hidden weights dropout rate (default: 0.0)')
++parser.add_argument('--num_rnn_layers', type=int, default=2,
++                    help='# RNN layers (default: 2)')
++
++# Schema Encoder
++parser.add_argument('--schema_hidden_dim', type=int, default=200,
++                    help='Dimension of the schema encoding')
++parser.add_argument('--schema_dropout_rate', type=float, default=0.0,
++                    help='Dropout rate of the schema encoder')
++parser.add_argument('--schema_rnn_num_layers', type=int, default=1,
++                    help='Number of layers in the rnn which encodes the lexical features of the schema')
++parser.add_argument('--schema_rnn_input_dropout_rate', type=float, default=0.0)
++parser.add_argument('--schema_rnn_layer_dropout_rate', type=float, default=0.0)
++parser.add_argument('--schema_rnn_weight_dropout_rate', type=float, default=0.0)
++parser.add_argument('--use_additive_features', action='store_true',
++                    help='Add database key and field type features to column encodings (default: False)')
++parser.add_argument('--num_const_attn_layers', type=int, default=0,
++                    help='Number of self attention layers to use to encode the constants (default: 0)')
++
++# Transformer
++parser.add_argument('--encoder_tf_hidden_dim', type=int, default=-1,
++                    help='Transformer encoder hidden dimension (default to encoder input dimension)')
++parser.add_argument('--decoder_tf_hidden_dim', type=int, default=-1,
++                    help='Transformer decoder hidden dimension (default to encoder input dimension)')
++parser.add_argument('--sa_num_layers', type=int, default=2,
++                    help='# self-attention layers (default: 2)')
++parser.add_argument('--sa_num_heads', type=int, default=1,
++                    help='# self attention heads (default: 1)')
++parser.add_argument('--sa_input_dropout_rate', type=float, default=0.0,
++                    help='Self attention input dropout rate (default: 0.0)')
++parser.add_argument('--sa_dropout_rate', type=float, default=0.0,
++                    help='Self attention dropout rate (default: 0.0)')
++
++# Feedforward Networks
++parser.add_argument('--ff_input_dropout_rate', type=float, default=0.0,
++                    help='Transformer feed-forward input dropout rate (default: 0.0)')
++parser.add_argument('--ff_hidden_dropout_rate', type=float, default=0.0,
++                    help='Transformer feed-forward hidden layer dropout rate (default: 0.0)')
++parser.add_argument('--ff_output_dropout_rate', type=float, default=0.0,
++                    help='Transformer feed-forward output layer dropout rate (default: 0.0)')
++
++# Optimization
++parser.add_argument('--seed', type=int, default=543, metavar='S',
++                    help='random seed (default: 543)')
++parser.add_argument('--num_epochs', type=int, default=200,
++                    help='maximum number of pass over the entire training set (default: 20)')
++parser.add_argument('--num_wait_epochs', type=int, default=200,
++                    help='number of epochs to wait before stopping training if dev set performance drops')
++parser.add_argument('--num_peek_epochs', type=int, default=2,
++                    help='number of epochs to wait for next dev set result check (default: 2)')
++parser.add_argument('--start_epoch', type=int, default=0,
++                    help='epoch from which the training should start (default: 0)')
++parser.add_argument('--num_steps', type=int, default=20000,
++                    help='maximum number of training steps (default: 20000)')
++parser.add_argument('--save_best_model_only', action='store_true',
++                    help='If set, only save the model that achieves best performance on the validation set. (default: False)')
++parser.add_argument('--num_wait_steps', type=int, default=20000,
++                    help='number of steps to wait before stopping training if dev set performance drops')
++parser.add_argument('--num_peek_steps', type=int, default=400,
++                    help='number of steps to wait for next dev set result check (default: 400)')
++parser.add_argument('--num_accumulation_steps', type=int, default=1,
++                    help='number of steps to wait before running an optimizer step (default: 1)')
++parser.add_argument('--num_log_steps', type=int, default=500,
++                    help='number of steps to wait for next wandb log save (default: 500)')
++parser.add_argument('--start_step', type=int, default=0,
++                    help='step from which the training should start (default: 0)')
++parser.add_argument('--train_batch_size', type=int, default=256,
++                    help='mini-batch size during training (default: 256)')
++parser.add_argument('--dev_batch_size', type=int, default=64,
++                    help='mini-batch size during inferece (default: 64)')
++parser.add_argument('--margin', type=float, default=0,
++                    help='margin used for base MAMES training (default: 0)')
++parser.add_argument('--optimizer', type=str, default='adam',
++                    help='optimizer to use (default: Adam)')
++parser.add_argument('--bert_finetune_rate', type=float, default=0,
++                    help='BERT finetune rate (default: 0)')
++parser.add_argument('--learning_rate', type=float, default=0.001,
++                    help='learning rate (default: 0.0001)')
++parser.add_argument('--learning_rate_scheduler', type=str, default='step',
++                    help='learning rate scheduler (default: step)')
++parser.add_argument('--trans_learning_rate_scheduler', type=str, default='step',
++                    help='learning rate scheduler for fine-tuning pre-trained transformers (default: step)')
++parser.add_argument('--warmup_init_lr', type=float, default=0.0005,
++                    help='learning rate at the beginning of the warmup procedure (default: 5e-4)')
++parser.add_argument('--warmup_init_ft_lr', type=float, default=0.00005,
++                    help='fine tuning rate at the beginning of the warmup procedure (default: 5e-5)')
++parser.add_argument('--curriculum_interval', type=int, default=0,
++                    help='# number of steps for fitting a hardness level during curriculumn learning (default: 0)')
++parser.add_argument('--num_warmup_steps', type=int, default=4000,
++                    help='# warmup steps to do in the warmup procedure (default: 4000)')
++parser.add_argument('--adam_beta1', type=float, default=0.9,
++                    help='Adam: decay rates for the first movement estimate (default: 0.9)')
++parser.add_argument('--adam_beta2', type=float, default=0.999,
++                    help='Adam: decay rates for the second raw movement estimate (default: 0.999)')
++parser.add_argument('--adam_eps', type=float, default=1e-8,
++                    help='Adam: denominator bias to improve numerical stability (default: 1e-8)')
++parser.add_argument('--grad_norm', type=float, default=0,
++                    help='norm threshold for gradient clipping (default 0, no gradient normalization is used)')
++parser.add_argument('--xavier_initialization', type=bool, default=True,
++                    help='Initialize all model parameters using xavier initialization (default: True)')
++parser.add_argument('--random_parameters', type=bool, default=False,
++                    help='Inference with random parameters (default: False)')
++
++# Search Decoding
++parser.add_argument('--decoding_algorithm', type=str, default='beam-search',
++                    help='decoding algorithm (default: "beam-search")')
++parser.add_argument('--beam_size', type=int, default=100,
++                    help='size of beam used in beam search inference (default: 100))')
++parser.add_argument('--bs_alpha', type=float, default=1,
++                    help='bea, search length normalization coefficient')
++parser.add_argument('--execution_guided_decoding', action='store_true',
++                    help='If set, use execution guided decoding to prune decoded queries.')
++
++# Hyperparameter Search
++parser.add_argument('--tune', type=str, default='',
++                    help='Specify the hyperparameters to tune during the search, separated by commas (default: None)')
++parser.add_argument('--grid_search', action='store_true',
++                    help='Conduct grid search of hyperparameters')
++
++
++args = parser.parse_args()
+diff --git a/src/parse_args_test.py b/src/parse_args_test.py
+new file mode 100755
+index 0000000..373161f
+--- /dev/null
++++ b/src/parse_args_test.py
+@@ -0,0 +1,315 @@
++"""
++ Copyright (c) 2020, salesforce.com, inc.
++ All rights reserved.
++ SPDX-License-Identifier: BSD-3-Clause
++ For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
++
++ Experiment Hyperparameters.
++"""
++
++import argparse
++import os
++
++
++parser = argparse.ArgumentParser(description='Neural Semantic Parsing with Transformer-Pointer Network')
++
++# Experiment control
++parser.add_argument('--process_data', action='store_true', default=True,
++                    help='data preprocessing and numericalization (default: False)')
++parser.add_argument('--process_new_data_split', action='store_true',
++                    help='preprocess a specified data split and add it to existing processed data (default: False)')
++parser.add_argument('--train', action='store_true',
++                    help='run model training (default: False)')
++parser.add_argument('--inference', action='store_true',
++                    help='run inference (default: False)')
++parser.add_argument('--ensemble_inference', action='store_true',
++                    help='run inference with the ensemble of multiple models specified ')
++parser.add_argument('--predict_tables', action='store_true',
++                    help='run table prediction experiments (default: False)')
++parser.add_argument('--no_join_condition', action='store_true',
++                    help='do not predict join condition (default: False)')
++parser.add_argument('--test', action='store_true',
++                    help='perform inference on the test set (default: False)')
++parser.add_argument('--fine_tune', action='store_true',
++                    help='fine tuning model on a given dataset (default: False)')
++parser.add_argument('--demo', action='store_true',
++                    help='run interactive commandline demo (default: False)')
++parser.add_argument('--demo_db', type=str, default=None,
++                    help='the database used in the interactive demo')
++parser.add_argument('--data_statistics', action='store_true',
++                    help='print dataset statistics (default: False)')
++parser.add_argument('--search_random_seed', action='store_true',
++                    help='run experiments with multiple random initializations and compute the result '
++                         'statistics (default: False)')
++parser.add_argument('--eval', action='store_true',
++                    help='compute evaluation metrics (default: False)')
++parser.add_argument('--eval_by_relation_type', action='store_true',
++                    help='compute evaluation metrics for to-M and to-1 relations separately (default: False)')
++parser.add_argument('--error_analysis', action='store_true',
++                    help='run error analysis (default: False)')
++parser.add_argument('--data_dir', type=str, default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data/spider'),
++                    help='directory where the data is stored (default: None)')
++parser.add_argument('--db_dir', type=str, default="data/spider/database",
++                    help='directory where the database files are stored (default: None)')
++parser.add_argument('--model_root_dir', type=str, default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'bridge'),
++                    help='root directory where the model parameters are stored (default: None)')
++parser.add_argument('--viz_root_dir', type=str, default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'viz'),
++                    help='root directory where the network visualizations are stored (default: None)')
++parser.add_argument('--model_dir', type=str, default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'model'),
++                    help='directory where the model parameters are stored (default: None)')
++parser.add_argument('--viz_dir', type=str, default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'viz'),
++                    help='directory where the network visualizations are stored (default: None)')
++parser.add_argument('--save_all_checkpoints', action='store_true',
++                    help='If set, save all checkpoints during training; otherwise, save the checkpoints w/ the best '
++                         'dev performance only. (default: False)')
++parser.add_argument('--gpu', type=int, default=0, help='gpu device (default: 0)')
++
++# Leaderboard submission
++parser.add_argument('--leaderboard_submission', action='store_true',
++                    help='If set, switch to leaderboard submission mode.')
++parser.add_argument('--codalab_data_dir', type=str, default=None,
++                    help='Data directory on Codalab.')
++parser.add_argument('--codalab_db_dir', type=str, default=None,
++                    help='Database directory on Codalab.')
++parser.add_argument('--checkpoint_path', type=str, default=None,
++                    help='path to a pretrained checkpoint (default: None)')
++parser.add_argument('--prediction_path', type=str, default=None,
++                    help='path to which the model prediction is saved (default: None)')
++
++# Data
++parser.add_argument('--use_pred_tables', action='store_true',
++                    help='If set, use automatically predicted tables.')
++parser.add_argument('--use_graph_encoding', action='store_true',
++                    help='If set, use graph encoding as input.')
++parser.add_argument('--use_picklist', action='store_true',
++                    help='If set, use field value pick list (default: False)')
++parser.add_argument('--read_picklist', action='store_true',
++                    help='If set, read field values from pick list (default: False)')
++parser.add_argument('--top_k_picklist_matches', type=int, default=1,
++                    help='Maximum number of values that matches the input to select from a picklist (default: 1)')
++parser.add_argument('--num_values_per_field', type=int, default=0,
++                    help='Number of sample values to include in a field representation')
++parser.add_argument('--num_random_tables_added', type=int, default=0,
++                    help='Number of random tables added in addition to groundtruth during stage-2 training')
++parser.add_argument('--table_shuffling', action='store_true', default=True,
++                    help='If set, shuffle table order (default: False)')
++parser.add_argument('--anchor_text_match_threshold', type=float, default=0.85,
++                    help='Score threshold above which an anchor text match is considered (default: 0.85)')
++parser.add_argument('--no_anchor_text', action='store_true',
++                    help='If add, add only the special value token but not the value text to the schema representation')
++parser.add_argument('--question_split', action='store_true',
++                    help='split dataset based on questions (default: False)')
++parser.add_argument('--query_split', action='store_true',
++                    help='split dataset based on queries (default: False)')
++parser.add_argument('--question_only', action='store_true', default=True,
++                    help='Take only the natural language questions as input (default: False)')
++parser.add_argument('--pretrained_transformer', type=str, default='',
++                    help='Specify pretrained transformer model to use.')
++parser.add_argument('--fix_pretrained_transformer_parameters', action='store_true',
++                    help='If set, no finetuning is performed on the pretrained BERT embeddings (default: False).')
++parser.add_argument('--use_typed_field_markers', action='store_true',
++                    help='If set, use typed column special tokens to feed into the BERT layer (default: False).')
++parser.add_argument('--vocab_min_freq', type=int, default=1,
++                    help='Minimum token frequency in shared vocabulary (default: 1)')
++parser.add_argument('--share_vocab', action='store_true',
++                    help='Share input and output vocabulary (default: False)')
++parser.add_argument('--text_vocab_min_freq', type=int, default=1,
++                    help='Minimum word frequency in natural language vocabulary (default: 1)')
++parser.add_argument('--program_vocab_min_freq', type=int, default=1,
++                    help='Minimum token frequency in program vocabulary (default: 1)')
++parser.add_argument('--enumerate_ground_truth', action='store_true',
++                    help='Sample ground truth queries during training when there are multiple correct ones '
++                         '(default: False)')
++parser.add_argument('--save_nn_weights_for_visualizations', action='store_true',
++                    help='Save visualizations of neural network layers. (default: False)')
++parser.add_argument('--dataset_name', type=str, default='spider',
++                    help='name of dataset (default: wikisql)')
++parser.add_argument('--normalize_variables', action='store_true', default=False,
++                    help='replace constant values in text and programs with place holders (default: False)')
++parser.add_argument('--denormalize_sql', action='store_true',
++                    help='Denormalize SQL queries (default: False)')
++parser.add_argument('--omit_from_clause', action='store_true',
++                    help='Remove FROM clause from SQL query in data preprocessing (default: False)')
++parser.add_argument('--use_oracle_tables', action='store_true',
++                    help='If set, use only ground truth tables in the database schema representation (default: False)')
++parser.add_argument('--atomic_value', action='store_true',
++                    help='If set, make value copying an atomic action (default: False).')
++parser.add_argument('--data_augmentation_factor', type=int, default=1,
++                    help='Data augmentation factor (default: 1)')
++parser.add_argument('--schema_augmentation_factor', type=int, default=1,
++                    help='Schema augmentation factor (default: 1)')
++parser.add_argument('--random_field_order', action='store_true',
++                    help='If set, use random field order in augmented table schema (default: False).')
++parser.add_argument('--augment_with_wikisql', action='store_true',
++                    help='If set, augment training data with WikiSQL (default: False)')
++parser.add_argument('--process_sql_in_execution_order', action='store_true',
++                    help='Generate and process SQL clauses in execution order (default: False)')
++parser.add_argument('--sql_consistency_check', action='store_true',
++                    help='Check consistency of a genereated SQL query (default: False)')
++
++parser.add_argument('--data_parallel', action='store_true', default=False,
++                    help='If set, use data parallelization. (default: False)')
++
++# Encoder-decoder model
++parser.add_argument('--model', type=str, default='bridge',
++                    help='semantic parsing model (default: bridge)')
++parser.add_argument('--model_id', type=int, default=None,
++                    help='semantic parsing model ID (default: None)')
++parser.add_argument('--loss', type=str, default='cross_entropy',
++                    help='sequence training loss (default: cross_entropy)')
++parser.add_argument('--encoder_input_dim', type=int, default=200,
++                    help='Encoder input dimension (default: 200)')
++parser.add_argument('--decoder_input_dim', type=int, default=200,
++                    help='Decoder input dimension (default: 200)')
++parser.add_argument('--emb_dropout_rate', type=float, default=0.0,
++                    help='Embedding dropout rate (default: 0.0)')
++parser.add_argument('--pretrained_lm_dropout_rate', type=float, default=0.0,
++                    help='Pretrained LM features dropout rate (default: 0.0)')
++parser.add_argument('--res_input_dropout_rate', type=float, default=0.0,
++                    help='Residual input dropout rate (default: 0.0)')
++parser.add_argument('--res_layer_dropout_rate', type=float, default=0.0,
++                    help='Residual layer dropout rate (default: 0.0)')
++parser.add_argument('--cross_attn_num_heads', type=int, default=1,
++                    help='Encoder-decoder attention # heads (default: 1)')
++parser.add_argument('--cross_attn_dropout_rate', type=float, default=0.0,
++                    help='Encoder-decoder attention dropout rate (default: 0.0)')
++parser.add_argument('--max_in_seq_len', type=int, default=120,
++                    help='Maximum input length (default: 120)')
++parser.add_argument('--max_out_seq_len', type=int, default=120,
++                    help='Maximum output length (default: 120)')
++parser.add_argument('--use_lstm_encoder', action='store_true',
++                    help='If set, use LSTM encoder on top of pretrained transformer encoders (default: False)')
++parser.add_argument('--use_meta_data_encoding', action='store_true',
++                    help='If set, encode meta data features in the DB schema (default: False)')
++
++# RNNs
++parser.add_argument('--encoder_hidden_dim', type=int, default=-1,
++                    help='Encoder hidden dimension (default to encoder input dimension)')
++parser.add_argument('--decoder_hidden_dim', type=int, default=-1,
++                    help='Decoder hidden dimension (default to decoder input dimension)')
++parser.add_argument('--rnn_input_dropout_rate', type=float, default=0.0,
++                    help='RNN input layer dropout rate (default: 0.0)')
++parser.add_argument('--rnn_layer_dropout_rate', type=float, default=0.0,
++                    help='Dropout rate between RNN layers (default: 0.0)')
++parser.add_argument('--rnn_weight_dropout_rate', type=float, default=0.0,
++                    help='RNN hidden weights dropout rate (default: 0.0)')
++parser.add_argument('--num_rnn_layers', type=int, default=2,
++                    help='# RNN layers (default: 2)')
++
++# Schema Encoder
++parser.add_argument('--schema_hidden_dim', type=int, default=200,
++                    help='Dimension of the schema encoding')
++parser.add_argument('--schema_dropout_rate', type=float, default=0.0,
++                    help='Dropout rate of the schema encoder')
++parser.add_argument('--schema_rnn_num_layers', type=int, default=1,
++                    help='Number of layers in the rnn which encodes the lexical features of the schema')
++parser.add_argument('--schema_rnn_input_dropout_rate', type=float, default=0.0)
++parser.add_argument('--schema_rnn_layer_dropout_rate', type=float, default=0.0)
++parser.add_argument('--schema_rnn_weight_dropout_rate', type=float, default=0.0)
++parser.add_argument('--use_additive_features', action='store_true',
++                    help='Add database key and field type features to column encodings (default: False)')
++parser.add_argument('--num_const_attn_layers', type=int, default=0,
++                    help='Number of self attention layers to use to encode the constants (default: 0)')
++
++# Transformer
++parser.add_argument('--encoder_tf_hidden_dim', type=int, default=-1,
++                    help='Transformer encoder hidden dimension (default to encoder input dimension)')
++parser.add_argument('--decoder_tf_hidden_dim', type=int, default=-1,
++                    help='Transformer decoder hidden dimension (default to encoder input dimension)')
++parser.add_argument('--sa_num_layers', type=int, default=2,
++                    help='# self-attention layers (default: 2)')
++parser.add_argument('--sa_num_heads', type=int, default=1,
++                    help='# self attention heads (default: 1)')
++parser.add_argument('--sa_input_dropout_rate', type=float, default=0.0,
++                    help='Self attention input dropout rate (default: 0.0)')
++parser.add_argument('--sa_dropout_rate', type=float, default=0.0,
++                    help='Self attention dropout rate (default: 0.0)')
++
++# Feedforward Networks
++parser.add_argument('--ff_input_dropout_rate', type=float, default=0.0,
++                    help='Transformer feed-forward input dropout rate (default: 0.0)')
++parser.add_argument('--ff_hidden_dropout_rate', type=float, default=0.0,
++                    help='Transformer feed-forward hidden layer dropout rate (default: 0.0)')
++parser.add_argument('--ff_output_dropout_rate', type=float, default=0.0,
++                    help='Transformer feed-forward output layer dropout rate (default: 0.0)')
++
++# Optimization
++parser.add_argument('--seed', type=int, default=543, metavar='S',
++                    help='random seed (default: 543)')
++parser.add_argument('--num_epochs', type=int, default=200,
++                    help='maximum number of pass over the entire training set (default: 20)')
++parser.add_argument('--num_wait_epochs', type=int, default=200,
++                    help='number of epochs to wait before stopping training if dev set performance drops')
++parser.add_argument('--num_peek_epochs', type=int, default=2,
++                    help='number of epochs to wait for next dev set result check (default: 2)')
++parser.add_argument('--start_epoch', type=int, default=0,
++                    help='epoch from which the training should start (default: 0)')
++parser.add_argument('--num_steps', type=int, default=20000,
++                    help='maximum number of training steps (default: 20000)')
++parser.add_argument('--save_best_model_only', action='store_true',
++                    help='If set, only save the model that achieves best performance on the validation set. (default: False)')
++parser.add_argument('--num_wait_steps', type=int, default=20000,
++                    help='number of steps to wait before stopping training if dev set performance drops')
++parser.add_argument('--num_peek_steps', type=int, default=400,
++                    help='number of steps to wait for next dev set result check (default: 400)')
++parser.add_argument('--num_accumulation_steps', type=int, default=1,
++                    help='number of steps to wait before running an optimizer step (default: 1)')
++parser.add_argument('--num_log_steps', type=int, default=500,
++                    help='number of steps to wait for next wandb log save (default: 500)')
++parser.add_argument('--start_step', type=int, default=0,
++                    help='step from which the training should start (default: 0)')
++parser.add_argument('--train_batch_size', type=int, default=256,
++                    help='mini-batch size during training (default: 256)')
++parser.add_argument('--dev_batch_size', type=int, default=64,
++                    help='mini-batch size during inferece (default: 64)')
++parser.add_argument('--margin', type=float, default=0,
++                    help='margin used for base MAMES training (default: 0)')
++parser.add_argument('--optimizer', type=str, default='adam',
++                    help='optimizer to use (default: Adam)')
++parser.add_argument('--bert_finetune_rate', type=float, default=0,
++                    help='BERT finetune rate (default: 0)')
++parser.add_argument('--learning_rate', type=float, default=0.001,
++                    help='learning rate (default: 0.0001)')
++parser.add_argument('--learning_rate_scheduler', type=str, default='step',
++                    help='learning rate scheduler (default: step)')
++parser.add_argument('--trans_learning_rate_scheduler', type=str, default='step',
++                    help='learning rate scheduler for fine-tuning pre-trained transformers (default: step)')
++parser.add_argument('--warmup_init_lr', type=float, default=0.0005,
++                    help='learning rate at the beginning of the warmup procedure (default: 5e-4)')
++parser.add_argument('--warmup_init_ft_lr', type=float, default=0.00005,
++                    help='fine tuning rate at the beginning of the warmup procedure (default: 5e-5)')
++parser.add_argument('--curriculum_interval', type=int, default=0,
++                    help='# number of steps for fitting a hardness level during curriculumn learning (default: 0)')
++parser.add_argument('--num_warmup_steps', type=int, default=4000,
++                    help='# warmup steps to do in the warmup procedure (default: 4000)')
++parser.add_argument('--adam_beta1', type=float, default=0.9,
++                    help='Adam: decay rates for the first movement estimate (default: 0.9)')
++parser.add_argument('--adam_beta2', type=float, default=0.999,
++                    help='Adam: decay rates for the second raw movement estimate (default: 0.999)')
++parser.add_argument('--adam_eps', type=float, default=1e-8,
++                    help='Adam: denominator bias to improve numerical stability (default: 1e-8)')
++parser.add_argument('--grad_norm', type=float, default=0,
++                    help='norm threshold for gradient clipping (default 0, no gradient normalization is used)')
++parser.add_argument('--xavier_initialization', type=bool, default=True,
++                    help='Initialize all model parameters using xavier initialization (default: True)')
++parser.add_argument('--random_parameters', type=bool, default=False,
++                    help='Inference with random parameters (default: False)')
++
++# Search Decoding
++parser.add_argument('--decoding_algorithm', type=str, default='beam-search',
++                    help='decoding algorithm (default: "beam-search")')
++parser.add_argument('--beam_size', type=int, default=100,
++                    help='size of beam used in beam search inference (default: 100))')
++parser.add_argument('--bs_alpha', type=float, default=1,
++                    help='bea, search length normalization coefficient')
++parser.add_argument('--execution_guided_decoding', action='store_true',
++                    help='If set, use execution guided decoding to prune decoded queries.')
++
++# Hyperparameter Search
++parser.add_argument('--tune', type=str, default='',
++                    help='Specify the hyperparameters to tune during the search, separated by commas (default: None)')
++parser.add_argument('--grid_search', action='store_true',
++                    help='Conduct grid search of hyperparameters')
++
++
++args = parser.parse_args()
+diff --git a/src/semantic_parser/__init__.py b/src/semantic_parser/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/bridge.py b/src/semantic_parser/bridge.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/decoder.py b/src/semantic_parser/decoder.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/decoding_algorithms.py b/src/semantic_parser/decoding_algorithms.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/encoder_decoder.py b/src/semantic_parser/encoder_decoder.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/ensemble.py b/src/semantic_parser/ensemble.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/ensemble_configs.py b/src/semantic_parser/ensemble_configs.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/learn_framework.py b/src/semantic_parser/learn_framework.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/seq2seq.py b/src/semantic_parser/seq2seq.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/seq2seq_ptr.py b/src/semantic_parser/seq2seq_ptr.py
+old mode 100644
+new mode 100755
+diff --git a/src/submission.py b/src/submission.py
+old mode 100644
+new mode 100755
+diff --git a/src/submission_ensemble.py b/src/submission_ensemble.py
+old mode 100644
+new mode 100755
+diff --git a/src/submit_to_gcp.py b/src/submit_to_gcp.py
+old mode 100644
+new mode 100755
+diff --git a/src/trans_checker/README.md b/src/trans_checker/README.md
+old mode 100644
+new mode 100755
+diff --git a/src/trans_checker/args.py b/src/trans_checker/args.py
+old mode 100644
+new mode 100755
+diff --git a/src/trans_checker/trans_checker.py b/src/trans_checker/trans_checker.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/__init__.py b/src/utils/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/trans/__init__.py b/src/utils/trans/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/trans/bert_cased_utils.py b/src/utils/trans/bert_cased_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/trans/bert_utils.py b/src/utils/trans/bert_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/trans/roberta_utils.py b/src/utils/trans/roberta_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/trans/table_bert_utils.py b/src/utils/trans/table_bert_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/utils.py b/src/utils/utils.py
+old mode 100644
+new mode 100755

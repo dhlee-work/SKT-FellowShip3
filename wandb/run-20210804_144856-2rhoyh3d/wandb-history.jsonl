@@ -1,0 +1,2 @@
+{"learning_rate/spider": 0.0005, "_runtime": 15.842487335205078, "_timestamp": 1628088544.5469809, "_step": 0}
+{"fine_tuning_rate/spider": 3.00075e-05, "_runtime": 15.844209671020508, "_timestamp": 1628088544.5487032, "_step": 1}

@@ -1,0 +1,1 @@
+{"_step": 1, "_timestamp": 1627455655.526671, "learning_rate/spider": 0.0005, "_runtime": 13.865167379379272, "fine_tuning_rate/spider": 3.00075e-05, "graph_0": {"_type": "graph-file", "path": "media/graph/graph_0_summary_b82f11d2.graph.json", "sha256": "b82f11d2f643fcda204412572aaa67526233ad4194d0396826dcd24297194187", "size": 40768}}

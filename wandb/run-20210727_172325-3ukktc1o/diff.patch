@@ -1,0 +1,312 @@
+diff --git a/.gitignore b/.gitignore
+old mode 100644
+new mode 100755
+diff --git a/CODE_OF_CONDUCT.md b/CODE_OF_CONDUCT.md
+old mode 100644
+new mode 100755
+diff --git a/LICENSE b/LICENSE
+old mode 100644
+new mode 100755
+diff --git a/README.md b/README.md
+old mode 100644
+new mode 100755
+diff --git a/SECURITY.md b/SECURITY.md
+old mode 100644
+new mode 100755
+diff --git a/configs/bridge/spider-bridge-bert-large.sh b/configs/bridge/spider-bridge-bert-large.sh
+old mode 100644
+new mode 100755
+diff --git a/data/spider/scripts/amend_missing_foreign_keys.py b/data/spider/scripts/amend_missing_foreign_keys.py
+old mode 100644
+new mode 100755
+index 3c5221d..ebc83ff
+--- a/data/spider/scripts/amend_missing_foreign_keys.py
++++ b/data/spider/scripts/amend_missing_foreign_keys.py
+@@ -9,6 +9,8 @@ import os
+ import shutil
+ import sys
+ 
++#os.chdir('/home/d905/SKT/test/TabularSemanticParsing/')
++
+ from moz_sp import parse, denormalize, extract_foreign_keys
+ from src.data_processor.data_loader import load_data_split_spider
+ from src.data_processor.processor_utils import get_ast
+diff --git a/moz_sp/README.md b/moz_sp/README.md
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/__init__.py b/moz_sp/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/debugs.py b/moz_sp/debugs.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/extractors/foreign_key_extractor.py b/moz_sp/extractors/foreign_key_extractor.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/extractors/table_extractor.py b/moz_sp/extractors/table_extractor.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/extractors/value_extractor.py b/moz_sp/extractors/value_extractor.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/formatting.py b/moz_sp/formatting.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/keywords.py b/moz_sp/keywords.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/schema_consistency_checker.py b/moz_sp/schema_consistency_checker.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/sql_execution_order_parser.py b/moz_sp/sql_execution_order_parser.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/sql_normalizer.py b/moz_sp/sql_normalizer.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/sql_parser.py b/moz_sp/sql_parser.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/sql_tokenizer.py b/moz_sp/sql_tokenizer.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/tests/tests.py b/moz_sp/tests/tests.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/tests/unit_tests.py b/moz_sp/tests/unit_tests.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/traverser.py b/moz_sp/traverser.py
+old mode 100644
+new mode 100755
+diff --git a/moz_sp/utils.py b/moz_sp/utils.py
+old mode 100644
+new mode 100755
+diff --git a/requirements.txt b/requirements.txt
+old mode 100644
+new mode 100755
+index a0ea64b..01b91bf
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -5,7 +5,7 @@ mo-future>=2.20
+ pyparsing==2.3.0
+ wandb==0.8.30
+ n2w
+-matplotlib==3.0.2
++matplotlib
+ transformers==2.8.0
+ asciitree
+ apex
+diff --git a/src/__init__.py b/src/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/__init__.py b/src/common/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/content_encoder.py b/src/common/content_encoder.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/learn_framework.py b/src/common/learn_framework.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/lr_scheduler.py b/src/common/lr_scheduler.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/nn_modules.py b/src/common/nn_modules.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/nn_visualizer.py b/src/common/nn_visualizer.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/ops.py b/src/common/ops.py
+old mode 100644
+new mode 100755
+diff --git a/src/common/show_vis.ipynb b/src/common/show_vis.ipynb
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/__init__.py b/src/data_processor/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/data_augmentation.py b/src/data_processor/data_augmentation.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/data_loader.py b/src/data_processor/data_loader.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/data_processor.py b/src/data_processor/data_processor.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/data_stats.py b/src/data_processor/data_stats.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/path_utils.py b/src/data_processor/path_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/processor_utils.py b/src/data_processor/processor_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/processors/data_processor_spider.py b/src/data_processor/processors/data_processor_spider.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/processors/data_processor_wikisql.py b/src/data_processor/processors/data_processor_wikisql.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/revtok_tokenizer.py b/src/data_processor/revtok_tokenizer.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/schema_graph.py b/src/data_processor/schema_graph.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/schema_loader.py b/src/data_processor/schema_loader.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/sql/__init__.py b/src/data_processor/sql/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/sql/sql_operators.py b/src/data_processor/sql/sql_operators.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/sql/sql_reserved_tokens.py b/src/data_processor/sql/sql_reserved_tokens.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/tokenizers.py b/src/data_processor/tokenizers.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/vectorizers.py b/src/data_processor/vectorizers.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/vocab_processor.py b/src/data_processor/vocab_processor.py
+old mode 100644
+new mode 100755
+diff --git a/src/data_processor/vocab_utils.py b/src/data_processor/vocab_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/demos/__init__.py b/src/demos/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/demos/demo_args.py b/src/demos/demo_args.py
+old mode 100644
+new mode 100755
+diff --git a/src/demos/demos.py b/src/demos/demos.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/__init__.py b/src/eval/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/eval_constant_extraction.py b/src/eval/eval_constant_extraction.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/eval_table_prediction.py b/src/eval/eval_table_prediction.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/eval_tools.py b/src/eval/eval_tools.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/eval_utils.py b/src/eval/eval_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/spider/evaluate.py b/src/eval/spider/evaluate.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/spider/process_sql.py b/src/eval/spider/process_sql.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/spider/syntaxsql.py b/src/eval/spider/syntaxsql.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/__init__.py b/src/eval/wikisql/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/evaluate.py b/src/eval/wikisql/evaluate.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/lib/__init__.py b/src/eval/wikisql/lib/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/lib/common.py b/src/eval/wikisql/lib/common.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/lib/dbengine.py b/src/eval/wikisql/lib/dbengine.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/lib/query.py b/src/eval/wikisql/lib/query.py
+old mode 100644
+new mode 100755
+diff --git a/src/eval/wikisql/lib/table.py b/src/eval/wikisql/lib/table.py
+old mode 100644
+new mode 100755
+diff --git a/src/experiments.py b/src/experiments.py
+old mode 100644
+new mode 100755
+diff --git a/src/parse_args.py b/src/parse_args.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/__init__.py b/src/semantic_parser/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/bridge.py b/src/semantic_parser/bridge.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/decoder.py b/src/semantic_parser/decoder.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/decoding_algorithms.py b/src/semantic_parser/decoding_algorithms.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/encoder_decoder.py b/src/semantic_parser/encoder_decoder.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/ensemble.py b/src/semantic_parser/ensemble.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/ensemble_configs.py b/src/semantic_parser/ensemble_configs.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/learn_framework.py b/src/semantic_parser/learn_framework.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/seq2seq.py b/src/semantic_parser/seq2seq.py
+old mode 100644
+new mode 100755
+diff --git a/src/semantic_parser/seq2seq_ptr.py b/src/semantic_parser/seq2seq_ptr.py
+old mode 100644
+new mode 100755
+diff --git a/src/submission.py b/src/submission.py
+old mode 100644
+new mode 100755
+diff --git a/src/submission_ensemble.py b/src/submission_ensemble.py
+old mode 100644
+new mode 100755
+diff --git a/src/submit_to_gcp.py b/src/submit_to_gcp.py
+old mode 100644
+new mode 100755
+diff --git a/src/trans_checker/README.md b/src/trans_checker/README.md
+old mode 100644
+new mode 100755
+diff --git a/src/trans_checker/args.py b/src/trans_checker/args.py
+old mode 100644
+new mode 100755
+diff --git a/src/trans_checker/trans_checker.py b/src/trans_checker/trans_checker.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/__init__.py b/src/utils/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/trans/__init__.py b/src/utils/trans/__init__.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/trans/bert_cased_utils.py b/src/utils/trans/bert_cased_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/trans/bert_utils.py b/src/utils/trans/bert_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/trans/roberta_utils.py b/src/utils/trans/roberta_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/trans/table_bert_utils.py b/src/utils/trans/table_bert_utils.py
+old mode 100644
+new mode 100755
+diff --git a/src/utils/utils.py b/src/utils/utils.py
+old mode 100644
+new mode 100755
